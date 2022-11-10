@@ -7,6 +7,4 @@ Merged the script from tokyoneon and from p3nt4 so it works. *Note* Firewall mig
 sudo python2.7 ReverseSocksProxyHandler.py
 
 # Example
-Invoke-SocksProxy
-
-!! Don't forget the modify the scripts.
+Invoke-ReverseSocksProxy -remotePort 80 -remoteHost <HOST> -certFingerprint '<FINGERPRINT>'
